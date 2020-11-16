@@ -1,0 +1,107 @@
+/* h1{
+    color:white;
+} */
+*{
+    color: darkblue;
+    font-style: "calibri";
+    /* background-image: url("Snowflakes.gif"); */
+    /* background-image: url("MatureWigglyGlassfrog-max-1mb.gif"); */
+}
+.header{
+    background-image: linear-gradient(royalblue, slateblue, turquoise );
+    border: solid;
+    color: darkblue;
+    
+    border: 6px;
+    border-style: inset;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.item p{
+    color: darkblue;
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+}
+
+.item:hover{
+    opacity:1;
+    width: 500px;
+    height: 500px;
+}
+
+.item{
+    opacity: 0.1;
+}
+/* a:link{
+    color: white;
+} */
+a:visited{
+    color: white;
+}
+
+.grid{
+    background-color: #82dae9;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid;
+    padding: 50px;
+    /* text-align: ; */
+}
+
+.item{
+    /* padding: 5px; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body{
+    background-image: url("Snowflakes.gif");
+    /* background-color: #; */
+    border: solid;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 6px;
+    border-style: inset;
+}
+
+p{
+    /* top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%); */
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    color: darkblue;
+    border: 6px;
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+    /* padding: 5px; */
+}
+
+.footer{
+    background-color: #81AFF9;
+    color: royalblue;
+    border: 6px;
+    border-style: inset;
+}
